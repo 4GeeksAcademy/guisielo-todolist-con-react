@@ -6,19 +6,16 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<h1 className="text-center mt-5">Proyecto: ToDoList usando React</h1>
-			<br></br>
+			<h1>todos</h1>
 
+			<br></br>
+			
 			<DoList />
-
-			<br></br>
-			<a href="#" className="btn btn-success"> Add list </a>
-			<br></br>
 
 			<br></br>
 			<p>
 				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love Guisielo!
+				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
 			</p>
 		</div>
 	);
